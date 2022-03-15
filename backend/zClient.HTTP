@@ -1,0 +1,28 @@
+###
+GET http://localhost:8000
+
+
+###
+POST http://localhost:8000
+
+
+###
+GET http://localhost:8000/test
+
+
+###
+POST http://localhost:8000/test
+
+
+###
+GET http://localhost:8000/test/check
+
+
+###
+POST http://localhost:8000/test/check
+content-type: application/json
+
+{
+  "first_name": "test",
+  "last_name": "test"
+}
